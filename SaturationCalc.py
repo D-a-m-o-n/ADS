@@ -34,7 +34,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
-excel = pd.ExcelFile("DropShipData.xlsx")
+excel = pd.ExcelFile("DropShipDateta.xlsx")
 fj = pd.read_excel(excel, "Fashion Jewelry")
 mw = pd.read_excel(excel, "Men's Watches")
 ha = pd.read_excel(excel, "Home Appliances")
